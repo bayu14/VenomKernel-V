@@ -736,9 +736,6 @@ static int __f2fs_tmpfile(struct inode *dir, struct dentry *dentry,
 	unlock_new_inode(inode);
 
 	f2fs_balance_fs(sbi, true);
-=======
-	d_instantiate_new(dentry, inode);
->>>>>>> v3.18.111
 	return 0;
 
 release_out:
