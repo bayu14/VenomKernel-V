@@ -54,6 +54,13 @@ Module.symvers
 out/
 
 #
+# Ignore Build scripts
+#
+build.sh
+rolex.conf
+channel.conf
+
+#
 # Debian directory (make deb-pkg)
 #
 /debian/
